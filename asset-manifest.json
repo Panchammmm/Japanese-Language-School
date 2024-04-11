@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Yume-Japanese-Language-School/static/css/main.d21d381f.css",
-    "main.js": "/Yume-Japanese-Language-School/static/js/main.9a203857.js",
-    "static/media/banner-image.png": "/Yume-Japanese-Language-School/static/media/banner-image.84e1ed2fe0502e402782.png",
+    "main.css": "/Yume-Japanese-Language-School/static/css/main.17569666.css",
+    "main.js": "/Yume-Japanese-Language-School/static/js/main.1a936824.js",
+    "static/media/banner-image1.png": "/Yume-Japanese-Language-School/static/media/banner-image1.9b7e3ad3d31017b91ed2.png",
     "static/media/class.png": "/Yume-Japanese-Language-School/static/media/class.81227108580d025e30fe.png",
     "static/media/resource.png": "/Yume-Japanese-Language-School/static/media/resource.8f62763b7bf0288e7cd2.png",
     "static/media/happy.png": "/Yume-Japanese-Language-School/static/media/happy.760b312ecb1b47a8b246.png",
@@ -34,11 +34,11 @@
     "static/media/slick.ttf": "/Yume-Japanese-Language-School/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Yume-Japanese-Language-School/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Yume-Japanese-Language-School/index.html",
-    "main.d21d381f.css.map": "/Yume-Japanese-Language-School/static/css/main.d21d381f.css.map",
-    "main.9a203857.js.map": "/Yume-Japanese-Language-School/static/js/main.9a203857.js.map"
+    "main.17569666.css.map": "/Yume-Japanese-Language-School/static/css/main.17569666.css.map",
+    "main.1a936824.js.map": "/Yume-Japanese-Language-School/static/js/main.1a936824.js.map"
   },
   "entrypoints": [
-    "static/css/main.d21d381f.css",
-    "static/js/main.9a203857.js"
+    "static/css/main.17569666.css",
+    "static/js/main.1a936824.js"
   ]
 }
