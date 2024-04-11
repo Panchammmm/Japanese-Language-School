@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/Yume-Japanese-Language-School/static/css/main.fddb2171.css",
-    "main.js": "/Yume-Japanese-Language-School/static/js/main.a24cacd4.js",
-    "static/media/banner-image.png": "/Yume-Japanese-Language-School/static/media/banner-image.ac8885a8dbb89bc4bee7.png",
-    "static/media/course-banner-bg.png": "/Yume-Japanese-Language-School/static/media/course-banner-bg.337531ede9252771bdad.png",
+    "main.css": "/Yume-Japanese-Language-School/static/css/main.d21d381f.css",
+    "main.js": "/Yume-Japanese-Language-School/static/js/main.9a203857.js",
+    "static/media/banner-image.png": "/Yume-Japanese-Language-School/static/media/banner-image.84e1ed2fe0502e402782.png",
     "static/media/class.png": "/Yume-Japanese-Language-School/static/media/class.81227108580d025e30fe.png",
     "static/media/resource.png": "/Yume-Japanese-Language-School/static/media/resource.8f62763b7bf0288e7cd2.png",
     "static/media/happy.png": "/Yume-Japanese-Language-School/static/media/happy.760b312ecb1b47a8b246.png",
-    "static/media/cardImage4.jpg": "/Yume-Japanese-Language-School/static/media/cardImage4.8f02eab27c8adead1735.jpg",
+    "static/media/cardImage9.jpg": "/Yume-Japanese-Language-School/static/media/cardImage9.8f02eab27c8adead1735.jpg",
     "static/media/test.png": "/Yume-Japanese-Language-School/static/media/test.7ce36c52174d0fc10c67.png",
-    "static/media/cardImage2.jpg": "/Yume-Japanese-Language-School/static/media/cardImage2.2a43013be383fa51336a.jpg",
-    "static/media/cardImage1.jpg": "/Yume-Japanese-Language-School/static/media/cardImage1.c73e0df94ee6cdf77ad2.jpg",
+    "static/media/cardImage7.jpg": "/Yume-Japanese-Language-School/static/media/cardImage7.2a43013be383fa51336a.jpg",
+    "static/media/cardImage3.jpg": "/Yume-Japanese-Language-School/static/media/cardImage3.c73e0df94ee6cdf77ad2.jpg",
     "static/media/support.png": "/Yume-Japanese-Language-School/static/media/support.6e6635314542e5a17b98.png",
-    "static/media/cardImage3.jpg": "/Yume-Japanese-Language-School/static/media/cardImage3.a99df29c0562a1a9bc10.jpg",
+    "static/media/cardImage8.jpg": "/Yume-Japanese-Language-School/static/media/cardImage8.a99df29c0562a1a9bc10.jpg",
+    "static/media/cardImage5.jpg": "/Yume-Japanese-Language-School/static/media/cardImage5.2fd0684e99f81f20a5ce.jpg",
     "static/media/fees.png": "/Yume-Japanese-Language-School/static/media/fees.9c0ac99d0e2f642f03d0.png",
-    "static/media/cardImage5.jpg": "/Yume-Japanese-Language-School/static/media/cardImage5.47c0c2483fcb3ab48735.jpg",
+    "static/media/cardImage6.jpg": "/Yume-Japanese-Language-School/static/media/cardImage6.47c0c2483fcb3ab48735.jpg",
     "static/media/success.png": "/Yume-Japanese-Language-School/static/media/success.a46d114c1e33f10e8d88.png",
     "static/media/rating.png": "/Yume-Japanese-Language-School/static/media/rating.588e137020495af7063b.png",
     "static/media/learning.png": "/Yume-Japanese-Language-School/static/media/learning.f37be3f86c2b786159e6.png",
     "static/media/practice.png": "/Yume-Japanese-Language-School/static/media/practice.5823d9163f7a67227328.png",
     "static/media/discussion.png": "/Yume-Japanese-Language-School/static/media/discussion.6bfdeab079578d9e40fa.png",
+    "static/media/cardImage1.jpg": "/Yume-Japanese-Language-School/static/media/cardImage1.51acc7ed6d2c5d2903f0.jpg",
     "static/media/teacher.png": "/Yume-Japanese-Language-School/static/media/teacher.109f2438d74d988939a5.png",
-    "static/media/teacher-profile.jpg": "/Yume-Japanese-Language-School/static/media/teacher-profile.899c3d498352caf41dd5.jpg",
+    "static/media/banner2.jpg": "/Yume-Japanese-Language-School/static/media/banner2.b4a80b4a8c23a5f6ed9b.jpg",
+    "static/media/cardImage2.jpg": "/Yume-Japanese-Language-School/static/media/cardImage2.000bfb7574a0e5fed1a9.jpg",
+    "static/media/teacher-profile1.jpg": "/Yume-Japanese-Language-School/static/media/teacher-profile1.899c3d498352caf41dd5.jpg",
+    "static/media/cardImage4.jpg": "/Yume-Japanese-Language-School/static/media/cardImage4.aa0cc78b7606d374c8a4.jpg",
     "static/media/pancham.png": "/Yume-Japanese-Language-School/static/media/pancham.9ed9162d2883acb92a0d.png",
     "static/media/site-bg1.jpg": "/Yume-Japanese-Language-School/static/media/site-bg1.accc31e73ba51d778a54.jpg",
     "static/media/sayan.jpeg": "/Yume-Japanese-Language-School/static/media/sayan.5b95bdcaddfccd53e3a9.jpeg",
@@ -30,11 +34,11 @@
     "static/media/slick.ttf": "/Yume-Japanese-Language-School/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Yume-Japanese-Language-School/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Yume-Japanese-Language-School/index.html",
-    "main.fddb2171.css.map": "/Yume-Japanese-Language-School/static/css/main.fddb2171.css.map",
-    "main.a24cacd4.js.map": "/Yume-Japanese-Language-School/static/js/main.a24cacd4.js.map"
+    "main.d21d381f.css.map": "/Yume-Japanese-Language-School/static/css/main.d21d381f.css.map",
+    "main.9a203857.js.map": "/Yume-Japanese-Language-School/static/js/main.9a203857.js.map"
   },
   "entrypoints": [
-    "static/css/main.fddb2171.css",
-    "static/js/main.a24cacd4.js"
+    "static/css/main.d21d381f.css",
+    "static/js/main.9a203857.js"
   ]
 }
