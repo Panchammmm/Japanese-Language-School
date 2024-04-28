@@ -8,6 +8,7 @@ Welcome to Yume Japanese Language School Academy Site! We are thrilled to introd
 - [Demo](#demo)
 - [Preview](#preview)
 - [Technologies Used](#technologies-used)
+- [NPMs Used](#npms-used)
 - [Yume Japanese Language School Details](#yume-japanese-language-school-details)
 
 ## Features
@@ -36,6 +37,28 @@ We leverage cutting-edge technologies to deliver a seamless user experience:
 - **HTML**: The standard markup language for creating web pages.
 - **CSS**: A stylesheet language used for describing the presentation of HTML documents.
 - **JavaScript**: A versatile programming language that powers dynamic web content.
+
+## NPMs Used
+
+In the development of our platform, we utilized several NPM packages to enhance functionality and streamline development processes:
+
+- **react-slick**: Provides a carousel component for displaying images or other content in a sliding manner.
+- **slick-carousel**: Dependency for the react-slick package, offering additional functionality and styling options for carousels.
+- **styled-components**: Allows for the creation of styled React components with scoped styles, enhancing modularity and maintainability.
+- **react-icons**: Provides a vast library of icons as React components, offering flexibility in icon selection and customization.
+- **react-awesome-reveal**: Enables animated reveal effects for elements on a webpage, enhancing user engagement and visual appeal.
+- **@web3forms/react react-hook-form**: Facilitates the integration of web forms into our React application, providing a seamless user input experience with validation and submission handling.
+
+``npm install react-slick --save``
+``npm install slick-carousel --save``
+``npm install styled-components``
+``npm install react-icons``
+``npm install react-awesome-reveal``
+``npm install @web3forms/react react-hook-form``
+
+
+These NPM packages, among others, have played a crucial role in shaping the functionality and user experience of our platform, enabling us to deliver a polished and feature-rich application to our users.
+
 
 ## Yume Japanese Language School Details
 
