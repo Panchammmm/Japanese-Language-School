@@ -134,7 +134,7 @@
 
 .call-btn,
 .wapp-btn {
-    background-color: #01be96;
+    background-color: #01be8f;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -180,6 +180,6 @@
 
 .call-btn:hover,
 .wapp-btn:hover {
-    color: #01be96;
-    background-color: rgba(255, 255, 255, 0.5);
+    color: #01be8f;
+    background-color: rgba(255, 255, 255, 0.6);
 }

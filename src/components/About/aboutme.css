@@ -1,0 +1,50 @@
+.aboutme-section {
+    margin: 0 auto;
+    display: grid;
+    width: 80%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.my-container {
+    display: flow-root;
+    margin-top: 40px;
+}
+
+.my-image {
+    width: 20vw;
+    min-width: 8.8rem;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 15px 5px 0;
+    float: left;
+}
+
+@media (min-width: 500px) {
+    .my-image {
+        margin-right: 25px;
+    }
+}
+
+.my-text {
+    font-size: clamp(15.5px, 4vw, 19px);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutme {
+    font-weight: 600;
+    background-image: linear-gradient(to right, #ffd194, #d1913c);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: clamp(1rem, 4vw, 1.3rem);
+    text-transform: capitalize;
+}
+
+.aboutme-des {
+    font-size: clamp(1rem, 4vw, 2rem);
+    text-transform: capitalize;
+    margin-top: 8px;
+}

@@ -10,5 +10,11 @@
     margin-top: 80px;
     width: 100%;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 10px;
+}
+
+@media(max-width: 400px) {
+    .banner-container>img {
+        margin-top: 74px;
+    }
 }

@@ -40,6 +40,12 @@ nav a {
     color: black;
 }
 
+@media(max-width: 400px) {
+    nav {
+        padding: 7px;
+    }
+}
+
 nav a:hover {
     color: #E49B0F;
 }
@@ -105,15 +111,15 @@ nav li:first-child {
 @media (max-width: 600px) {
 
     nav a {
-        padding: 0 15px;
-        font-size: 14px;
+        padding: 0 10px;
+        font-size: 13.5px;
         letter-spacing: -0.3px;
     }
 
     .site-logo {
-        width: 1.8rem;
-        height: 1.8rem;
-        margin-top: 2.5px;
+        width: 1.75rem;
+        height: 1.75rem;
+        margin-top: 2.6px;
         margin-left: 20px;
     }
 }
@@ -126,10 +132,10 @@ nav li:first-child {
     }
 
     .site-logo {
-        margin-left: 10px;
+        margin-left: 12px;
     }
 
     .menu-button {
-        margin-right: 10px;
+        margin-right: 10.5px;
     }
 }

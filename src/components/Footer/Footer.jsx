@@ -63,7 +63,7 @@ export default function Footer() {
             </div>
 
             <div className="developer-details">
-                <h4>Devolopers</h4>
+                <h4>Developers</h4>
 
                 <div>
                     <img src={Pancham} alt="profile-img"></img>

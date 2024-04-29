@@ -42,8 +42,8 @@ const NavMenu = () => {
                     <li><a href="#about" onClick={(e) => scrollToSection(e, 'about')}>About</a></li>
                     <li><a href="#courses" onClick={(e) => scrollToSection(e, 'courses')}>Courses</a></li>
                     <li><a href="#whyus" onClick={(e) => scrollToSection(e, 'whyus')}>Why Us</a></li>
-                    <li><a href="#reviews" onClick={(e) => scrollToSection(e, 'reviews')}>Reviews</a></li>
                     <li><a href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact Us</a></li>
+                    <li><a href="#reviews" onClick={(e) => scrollToSection(e, 'reviews')}>Reviews</a></li>
                 </ul>
                 <ul>
                     <li className="site-name">
@@ -53,8 +53,8 @@ const NavMenu = () => {
                     <li className="hideOnMobile"><a href="#about" onClick={(e) => scrollToSection(e, 'about')}>About</a></li>
                     <li className="hideOnMobile"><a href="#courses" onClick={(e) => scrollToSection(e, 'courses')}>Courses</a></li>
                     <li className="hideOnMobile"><a href="#whyus" onClick={(e) => scrollToSection(e, 'whyus')}>Why Us</a></li>
-                    <li className="hideOnMobile"><a href="#reviews" onClick={(e) => scrollToSection(e, 'reviews')}>Reviews</a></li>
-                    <li className="hideOnMobile"><a className="contactUs-navTab" href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact Us</a></li>
+                    <li className="hideOnMobile"><a href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact Us</a></li>
+                    <li className="hideOnMobile"><a className="contactUs-navTab" href="#reviews" onClick={(e) => scrollToSection(e, 'reviews')}>Reviews</a></li>
 
                     <li className="menu-button" onClick={showSidebar}><a><img src={Menu} alt="menu"></img></a></li>
                 </ul>
