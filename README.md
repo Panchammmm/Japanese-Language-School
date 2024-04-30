@@ -48,6 +48,10 @@ In the development of our platform, we utilized several NPM packages to enhance 
 - **react-icons**: Provides a vast library of icons as React components, offering flexibility in icon selection and customization.
 - **react-awesome-reveal**: Enables animated reveal effects for elements on a webpage, enhancing user engagement and visual appeal.
 - **@web3forms/react react-hook-form**: Facilitates the integration of web forms into our React application, providing a seamless user input experience with validation and submission handling.
+- **react-router-dom**: Enables navigation and routing within our React application, ensuring seamless transitions between different views and pages.
+
+These NPM packages, among others, have played a crucial role in shaping the functionality and user experience of our platform, enabling us to deliver a polished and feature-rich application to our users.
+
 
 ``npm install react-slick --save``
 ``npm install slick-carousel --save``
@@ -55,6 +59,7 @@ In the development of our platform, we utilized several NPM packages to enhance 
 ``npm install react-icons``
 ``npm install react-awesome-reveal``
 ``npm install @web3forms/react react-hook-form``
+``npm install react-router-dom``
 
 
 These NPM packages, among others, have played a crucial role in shaping the functionality and user experience of our platform, enabling us to deliver a polished and feature-rich application to our users.

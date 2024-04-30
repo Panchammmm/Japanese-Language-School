@@ -1,6 +1,5 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './navmenu.css';
 
 import Logo from '../A_media/site-logo.jpg';
@@ -8,18 +7,6 @@ import Menu from '../A_media/menu.png';
 import CloseMenu from '../A_media/close-menu.png';
 
 const NavMenu = () => {
-    const scrollToSection = (event, sectionId) => {
-        event.preventDefault();
-        const section = document.getElementById(sectionId);
-        if (section) {
-            window.scrollTo({
-                top: section.offsetTop,
-                behavior: 'smooth'
-            });
-        }
-        hideSidebar();
-    };
-
     const showSidebar = () => {
         const sidebar = document.querySelector('.sidebar');
         sidebar.style.display = 'flex';
@@ -35,28 +22,29 @@ const NavMenu = () => {
             <nav>
                 <ul className="sidebar">
                     <li className="close-menu" onClick={hideSidebar}>
-                        <a>
+                        <a href="#imagee">
                             <img src={CloseMenu} alt="menu"></img>
                         </a>
                     </li>
-                    <li><a href="#about" onClick={(e) => scrollToSection(e, 'about')}>About</a></li>
-                    <li><a href="#courses" onClick={(e) => scrollToSection(e, 'courses')}>Courses</a></li>
-                    <li><a href="#whyus" onClick={(e) => scrollToSection(e, 'whyus')}>Why Us</a></li>
-                    <li><a href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact Us</a></li>
-                    <li><a href="#reviews" onClick={(e) => scrollToSection(e, 'reviews')}>Reviews</a></li>
+                    <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
+                    <li><NavLink exact to="/about" activeClassName="active">About</NavLink></li>
+                    <li><NavLink exact to="/courses" activeClassName="active">Courses</NavLink></li>
+                    <li><NavLink exact to="/whyus" activeClassName="active">Why Us</NavLink></li>
+                    <li><NavLink exact to="/reviews" activeClassName="active">Reviews</NavLink></li>
+                    <li><NavLink exact to="/contact" activeClassName="active">Contact Us</NavLink></li>
                 </ul>
                 <ul>
                     <li className="site-name">
                         <img className="site-logo" src={Logo} alt='logo'></img>
-                        <a>Yume Japanese Language School</a>
+                        <NavLink exact to="/" activeClassName="active">Yume Japanese Language School</NavLink>
                     </li>
-                    <li className="hideOnMobile"><a href="#about" onClick={(e) => scrollToSection(e, 'about')}>About</a></li>
-                    <li className="hideOnMobile"><a href="#courses" onClick={(e) => scrollToSection(e, 'courses')}>Courses</a></li>
-                    <li className="hideOnMobile"><a href="#whyus" onClick={(e) => scrollToSection(e, 'whyus')}>Why Us</a></li>
-                    <li className="hideOnMobile"><a href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact Us</a></li>
-                    <li className="hideOnMobile"><a className="contactUs-navTab" href="#reviews" onClick={(e) => scrollToSection(e, 'reviews')}>Reviews</a></li>
+                    <li className="hideOnMobile"><NavLink exact to="/about" activeClassName="active">About</NavLink></li>
+                    <li className="hideOnMobile"><NavLink exact to="/courses" activeClassName="active">Courses</NavLink></li>
+                    <li className="hideOnMobile"><NavLink exact to="/whyus" activeClassName="active">Why Us</NavLink></li>
+                    <li className="hideOnMobile"><NavLink exact to="/reviews" activeClassName="active">Reviews</NavLink></li>
+                    <li className="hideOnMobile"><NavLink className="contactUs-navTab" exact to="/contact" activeClassName="active">Contact Us</NavLink></li>
 
-                    <li className="menu-button" onClick={showSidebar}><a><img src={Menu} alt="menu"></img></a></li>
+                    <li className="menu-button" onClick={showSidebar}><a href="#imagee"><img src={Menu} alt="menu"></img></a></li>
                 </ul>
             </nav>
         </div>

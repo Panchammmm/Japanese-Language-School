@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* backgroud image styling */
+
+.bg-style {
+    position: fixed;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -5;
+}
+
+/* Scrollbar Styles */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* visa section */
+
+.visa-section {
+    width: 40%;
+    display: flex;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.visa-section > img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1100px) {
+    .visa-section {
+        width: 80%;
+    }
+}
+
+/* border style */
+
+.border-style * {
+    display: flex;
+    align-items: center;
+    margin: 1px 0;
+    min-height: 1px;
+    background: linear-gradient(270deg, hsla(0, 0%, 100%, .05) -.13%, hsla(0, 0%, 88%, .05) 0, #e0e0e0 49.17%, hsla(0, 0%, 88%, .05));
+}

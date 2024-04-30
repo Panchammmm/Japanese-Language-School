@@ -6,6 +6,7 @@ nav {
     box-shadow: -5px 9px 10px rgba(199, 199, 199, 0.6);
     z-index: 10;
     margin-bottom: 30px;
+    top: 0;
 }
 
 nav ul {
@@ -46,7 +47,8 @@ nav a {
     }
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
     color: #E49B0F;
 }
 
@@ -97,8 +99,7 @@ nav li:first-child {
     margin-bottom: 5px;
 }
 
-@media(max-width: 800px) {
-
+@media(max-width: 1000px) {
     .hideOnMobile {
         display: none;
     }
@@ -109,7 +110,6 @@ nav li:first-child {
 }
 
 @media (max-width: 600px) {
-
     nav a {
         padding: 0 10px;
         font-size: 13.5px;
@@ -125,7 +125,6 @@ nav li:first-child {
 }
 
 @media(max-width: 400px) {
-
     .sidebar {
         width: 50%;
         height: 100%;
@@ -134,8 +133,8 @@ nav li:first-child {
     .site-logo {
         margin-left: 12px;
     }
+}
 
-    .menu-button {
-        margin-right: 10.5px;
-    }
+.menu-button {
+    margin-right: 10.5px;
 }
