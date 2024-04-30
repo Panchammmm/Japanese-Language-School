@@ -120,9 +120,9 @@ export default function Hall() {
                     </div>
 
                     <div className="slider-cardx">
-                        <img src={Hallimge5} alt="cardImage"></img>
+                        <img src={Hallimg5} alt="cardImage"></img>
                     </div>
-
+                    
                     <div className="slider-cardx">
                         <img src={Hallimg6} alt="cardImage"></img>
                     </div>
