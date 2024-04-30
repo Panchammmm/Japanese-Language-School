@@ -5,14 +5,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './hall.css';
 
-import cardImage1 from '../../A_media/card-slider-image/cardImage1.jpg';
-import cardImage2 from '../../A_media/card-slider-image/cardImage2.jpg';
-import cardImage3 from '../../A_media/card-slider-image/cardImage3.jpg';
-import cardImage4 from '../../A_media/card-slider-image/cardImage4.jpg';
-import cardImage5 from '../../A_media/card-slider-image/cardImage5.jpg';
-import cardImage6 from '../../A_media/card-slider-image/cardImage6.jpg';
-import cardImage7 from '../../A_media/card-slider-image/cardImage7.jpg';
-import cardImage8 from '../../A_media/card-slider-image/cardImage8.jpg';
+import Hallimg1 from '../../A_media/Hall-imgs/hall_img1.jpg';
+import Hallimg2 from '../../A_media/Hall-imgs/hall_img2.jpg';
+import Hallimg3 from '../../A_media/Hall-imgs/hall_img3.jpg';
+import Hallimg4 from '../../A_media/Hall-imgs/hall_img4.jpg';
+import Hallimg5 from '../../A_media/Hall-imgs/hall_img5.jpg';
+import Hallimg6 from '../../A_media/Hall-imgs/hall_img6.jpg';
+import Hallimg7 from '../../A_media/Hall-imgs/hall_img7.jpg';
 
 
 function SampleNextArrow(props) {
@@ -105,35 +104,31 @@ export default function Hall() {
             <div className="slider-containerx">
                 <Slider {...settings}>
                     <div className="slider-cardx">
-                        <img src={cardImage1} alt="cardImage"></img>
+                        <img src={Hallimg1} alt="cardImage"></img>
                     </div>
 
                     <div className="slider-cardx">
-                        <img src={cardImage2} alt="cardImage"></img>
+                        <img src={Hallimg2} alt="cardImage"></img>
                     </div>
 
                     <div className="slider-cardx">
-                        <img src={cardImage3} alt="cardImage"></img>
+                        <img src={Hallimg3} alt="cardImage"></img>
                     </div>
 
                     <div className="slider-cardx">
-                        <img src={cardImage4} alt="cardImage"></img>
+                        <img src={Hallimg4} alt="cardImage"></img>
                     </div>
 
                     <div className="slider-cardx">
-                        <img src={cardImage5} alt="cardImage"></img>
+                        <img src={Hallimge5} alt="cardImage"></img>
                     </div>
 
                     <div className="slider-cardx">
-                        <img src={cardImage6} alt="cardImage"></img>
+                        <img src={Hallimg6} alt="cardImage"></img>
                     </div>
 
                     <div className="slider-cardx">
-                        <img src={cardImage7} alt="cardImage"></img>
-                    </div>
-
-                    <div className="slider-cardx">
-                        <img src={cardImage8} alt="cardImage"></img>
+                        <img src={Hallimg7} alt="cardImage"></img>
                     </div>
                 </Slider>
             </div>
