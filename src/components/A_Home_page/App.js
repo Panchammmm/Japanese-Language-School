@@ -11,12 +11,21 @@ import Banner from "./Banner/Banner";
 
 import background from "../A_media/Background/site-bg1.jpg";
 import visaBanner from '../A_media/visa.png';
+import Weoffer from '../A_media/we_offer.png';
 
 const Visa = () => {
   return (
-    <div className="visa-section">
-      <img src={visaBanner} alt="visa"></img>
-    </div>
+    <>
+      <div className="visa-section">
+        <img src={Weoffer} alt="offer"></img>
+      </div>
+
+      <div className="border-style"></div>
+      
+      <div className="visa-section">
+        <img src={visaBanner} alt="visa"></img>
+      </div>
+    </>
   );
 }
 
@@ -24,7 +33,7 @@ const App = () => {
 
   return (
     <>
-      <img className="bg-style" src={background} alt="bg"/>
+      <img className="bg-style" src={background} alt="bg" />
 
       <NavMenu />
       <Banner />
@@ -35,8 +44,8 @@ const App = () => {
       <div className="border-style"></div>
       <Visa />
       <Footer />
-      
-      
+
+
     </>
   );
 };

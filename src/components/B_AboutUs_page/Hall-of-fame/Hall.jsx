@@ -22,7 +22,7 @@ function SampleNextArrow(props) {
             style={{
                 ...style,
                 display: "block",
-                background: "#808080",
+                background: "rgba(128, 128, 128, 0.4)",
                 right: "-40px",
                 borderRadius: "50%",
             }}
@@ -39,7 +39,7 @@ function SamplePrevArrow(props) {
             style={{
                 ...style,
                 display: "block",
-                background: "#808080",
+                background: "rgba(128, 128, 128, 0.4)",
                 left: "-40px",
                 borderRadius: "50%",
             }}
